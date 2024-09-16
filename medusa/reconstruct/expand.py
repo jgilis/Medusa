@@ -3,7 +3,7 @@ import itertools
 import random
 from itertools import chain
 
-from optlang.interface import OPTIMAL
+from optlang.gurobi_interface import Model, Variable, Constraint, Objective #from optlang.interface import OPTIMAL
 
 from cobra.flux_analysis.gapfilling import GapFiller
 from cobra.flux_analysis.parsimonious import add_pfba
